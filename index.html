@@ -88,6 +88,12 @@
          text-align: center;
          position: relative; /* Added for pseudo-element */
          overflow: hidden; /* Hide overflowing image */
+         transition: transform 0.3s ease, background-color 0.3s ease; /* Added transition */
+      }
+
+      .course:hover {
+         transform: scale(1.1); /* Zoom effect on hover */
+         background-color: #9e999c; /* Dark beige */
       }
 
       .course:before {
@@ -97,7 +103,7 @@
          left: -10px;
          right: -10px;
          bottom: -10px;
-         background: #8b0000; /* Maroonish brown */
+         background: #945901; /* Maroonish brown */
          border-radius: 15px;
          z-index: -1;
       }
@@ -131,7 +137,7 @@
       }
 
       .course .btn:hover {
-         background-color: #800000; /* Darker shade for hover effect */
+         background-color: #efc689; /* Darker shade for hover effect */
       }
 
       /* Footer Styles */
@@ -163,29 +169,34 @@
 <div class="main-content">
    <div class="course-container">
       <div class="course">
-         <h3>Class 8, 9, 10</h3>
-         <img src="C:\Users\91707\OneDrive\Desktop\Pictures\Screenshots\Screenshot (479).png" alt="Class 8, 9, 10 Image">
-         <a href="class8_9_10_playlist.html" class="btn">View Playlist</a>
+         <h3>Class 8</h3>
+         <img src="class8.jpg" alt="Class 8, 9, 10 Image">
+         <a href="test of hp.html" class="btn">EXPLORE</a>
       </div>
       <div class="course">
-         <h3>Class 11, 12</h3>
-         <img src="C:\Users\91707\OneDrive\Desktop\Pictures\Screenshots\Screenshot (481).png" alt="Class 11, 12 Image">
-         <a href="class11_12_playlist.html" class="btn">View Playlist</a>
+         <h3>Class 9</h3>
+         <img src="class9.jpg" alt="Class 11, 12 Image">
+         <a href="class11_12_playlist.html" class="btn">EXPLORE</a>
       </div>
       <div class="course">
-         <h3>BSc Semesters</h3>
-         <img src="C:\Users\91707\OneDrive\Desktop\Pictures\Screenshots\Screenshot (478).png" alt="BSc Semesters Image">
-         <a href="bsc_semesters_playlist.html" class="btn">View Playlist</a>
+         <h3>Class 10</h3>
+         <img src="class10.jpg" alt="BSc Semesters Image">
+         <a href="bsc_semesters_playlist.html" class="btn">EXPLORE</a>
       </div>
       <div class="course">
-         <h3>Take a Test</h3>
-         <img src="C:\Users\91707\Downloads\photo-1580974852861-c381510bc98a.jpg" alt="Test Image">
-         <a href="MCQ FINAL.HTML" class="btn">Take Test</a>
+         <h3>class 11</h3>
+         <img src="class11.jpg" alt="Test Image">
+         <a href="MCQ FINAL.HTML" class="btn">EXPLORE</a>
       </div>
       <div class="course">
-         <h3>Notes Library</h3>
-         <img src="C:\Users\91707\OneDrive\Desktop\Pictures\Screenshots\Screenshot 2024-04-16 234825.png" alt="Notes Library Image">
-         <a href="notes_library.html" class="btn">Explore Notes</a>
+         <h3>class 12</h3>
+         <img src="class12.jpg" alt="Notes Library Image">
+         <a href="notes_library.html" class="btn">EXPLORE</a>
+      </div>
+      <div class="course">
+         <h3>B.Sc Semester</h3>
+         <img src="bssem.jpg" alt="Notes Library Image">
+         <a href="notes_library.html" class="btn">EXPLORE</a>
       </div>
    </div>
 </div>
